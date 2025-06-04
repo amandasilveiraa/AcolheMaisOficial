@@ -22,7 +22,7 @@ export function Header () {
             <BlocoHeader>
                 <HeaderImgLogo src={logo}/>
                 <NavBar>
-                    <StyledNavLink href="#" to="/">DASHBOARD</StyledNavLink>
+                    <StyledNavLink href="#" to="/dashboard">DASHBOARD</StyledNavLink>
                     <StyledNavLink to="/acolhidos">ACOLHIDOS</StyledNavLink>
                     <StyledNavLink to="/estoque">ESTOQUE</StyledNavLink>
                     <StyledNavLink href="#">DOCUMENTAÇÃO</StyledNavLink>

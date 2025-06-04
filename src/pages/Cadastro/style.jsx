@@ -9,8 +9,7 @@ export const LinkStyle = styled(Link)`
 
 export const Container = styled.div`
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     align-items: center;
     background-color: #f8f9fa;
     
@@ -31,7 +30,7 @@ export const Esquerda = styled.div`
     margin-right: 1%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 
-    @media (max-width: 700px){
+    @media (max-width: 1000px){
         display: none;
         visibility: hidden;
     }
@@ -40,7 +39,6 @@ export const Direita = styled.div`
     background-color: white;
     color: black;
     width: 45%;
-    height: 55rem;
     display: flex;
     flex-direction: column;
     // align-items: center;
@@ -52,7 +50,7 @@ export const Direita = styled.div`
     margin-left: 1%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 
-    @media (max-width: 700px){
+    @media (max-width: 1000px){
         width: 90%;
         margin: 0 auto;
     }
@@ -67,6 +65,10 @@ export const Titulo = styled.h1`
     font-size: 42px;
     margin-bottom: 10px;
     font-weight: 800;
+
+    @media (max-width: 600px){
+        margin-top: 28px;
+    }
 `
 
 export const Subtitulo = styled.p`
@@ -107,16 +109,14 @@ export const BotaoRedeSocial = styled.div`
     padding: 0.5rem 1rem;
     display: flex;
     width: 30%;
+    min-width: 155px;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     background-color: white;
     cursor: pointer;
 `
-export const Linha = styled.div`
-    display: flex;
-    gap: 1rem;
-`
+
 
 export const Titulodireita = styled.h2`
   font-size: 1.8rem;
@@ -154,7 +154,7 @@ export const Botao = styled.button`
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  width: 90%;
+  width: 100%;
   align-self: center;
   max-width: 80vw;
 
@@ -190,4 +190,20 @@ export const CampoForm = styled.div`
     width: 100%;
     flex-direction: column;
     margin-bottom: 16px;
+`
+
+export const Linha = styled.div`
+    display: flex;
+    gap: 1rem;
+
+    @media (max-width: 600px){
+        display: block;
+        gap: 2rem;
+
+        & ${CampoForm}:first-child{
+            margin-bottom: 64px;
+        }
+    }
+
+    
 `

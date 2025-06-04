@@ -23,8 +23,8 @@ export function Header () {
                 <HeaderImgLogo src={logo}/>
                 <NavBar>
                     <StyledNavLink href="#" to="/">DASHBOARD</StyledNavLink>
-                    <StyledNavLink href="#">ACOLHIDOS</StyledNavLink>
-                    <StyledNavLink href="#" to="/estoque">ESTOQUE</StyledNavLink>
+                    <StyledNavLink to="/acolhidos">ACOLHIDOS</StyledNavLink>
+                    <StyledNavLink to="/estoque">ESTOQUE</StyledNavLink>
                     <StyledNavLink href="#">DOCUMENTAÇÃO</StyledNavLink>
                 </NavBar>
                 <DivIcons>
@@ -34,8 +34,8 @@ export function Header () {
             </BlocoHeader>
             <NavBarRes visible={menu}>
                 <StyledNavLink href="#" to="/">DASHBOARD</StyledNavLink>
-                <StyledNavLink href="#">ACOLHIDOS</StyledNavLink>
-                <StyledNavLink href="#" to="/estoque">ESTOQUE</StyledNavLink>
+                <StyledNavLink to="/acolhidos">ACOLHIDOS</StyledNavLink>
+                <StyledNavLink to="/estoque">ESTOQUE</StyledNavLink>
                 <StyledNavLink href="#">DOCUMENTAÇÃO</StyledNavLink>
             </NavBarRes>
         </HeaderBar>

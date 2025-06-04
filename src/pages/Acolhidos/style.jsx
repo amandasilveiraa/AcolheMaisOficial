@@ -5,17 +5,18 @@ export const TituloPagina = styled.h1`
     margin-top: 16px;
 `
 
-export const NavEstoque = styled.nav`
+export const NavAcolhidos = styled.nav`
     display: flex;
     justify-content: space-between;
     margin-top: 14px;
 
     @media (max-width: 330px){
         display: block;
+
     }
 ` 
 
-export const BotaoFiltro = styled(Link)`
+export const Botao = styled(Link)`
     background-color: #006233;
     color: white;
     padding-right: 16px;
@@ -27,10 +28,11 @@ export const BotaoFiltro = styled(Link)`
     display: flex;
     align-items: center;
     gap: 4px;
+    width: min-content;
 
 `
 
-export const IconeFiltro = styled.img`
+export const IconeBotao = styled.img`
     width: 1.3em;
     height: 1.3em;
     color: white;
@@ -45,11 +47,11 @@ export const Pesquisar = styled.input.attrs({type: 'text'})`
     padding-bottom: 8px;
     border: none;
     border-radius: 11px;
+    
 
     @media (max-width: 330px){
         margin-bottom: 4px;
     }
-    
 
     &:focus{
         outline: none;

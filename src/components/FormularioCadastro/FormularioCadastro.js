@@ -21,12 +21,12 @@ export const CadastroForm = () => {
             {/* botões do google e do outlook */}
             <DivBotaoRedeSocial>
                 <BotaoRedeSocial>
-                    <img src={LogoGoogle}></img>
-                    <h2>Google</h2>
+                    <img src={LogoGoogle} width={'28px'} />
+                    <h4>Google</h4>
                 </BotaoRedeSocial>
                 <BotaoRedeSocial>
-                    <img src={LogoOutlook}></img>
-                    <h2>Outlook</h2>
+                    <img src={LogoOutlook} width={'28px'} />
+                    <h4>Outlook</h4>
                 </BotaoRedeSocial>
             </DivBotaoRedeSocial>
 
@@ -55,7 +55,7 @@ export const CadastroForm = () => {
                     <Input type="password" placeholder="Digite sua senha"></Input>
                 </CampoForm>
                 
-                <LinkStyle to='/dashboard'><Botao type="submit">Entrar</Botao></LinkStyle>
+                <LinkStyle to='/'><Botao type="submit">Entrar</Botao></LinkStyle>
             </Formulario>
 
         </FormTamanho>

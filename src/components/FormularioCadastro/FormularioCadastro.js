@@ -55,7 +55,7 @@ export const CadastroForm = () => {
                     <Input type="password" placeholder="Digite sua senha"></Input>
                 </CampoForm>
                 
-                <LinkStyle to='/'><Botao type="submit">Entrar</Botao></LinkStyle>
+                <LinkStyle to='/dashboard'><Botao type="submit">Entrar</Botao></LinkStyle>
             </Formulario>
 
         </FormTamanho>

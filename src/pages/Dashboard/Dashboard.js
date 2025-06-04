@@ -28,15 +28,15 @@ function Dashboard() {
       </SectionHeader>
 
     <CardsContainer>
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Contribuintes" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
-      <DashboardQuadrados title="Funcionários" number={2400} label="inquilinos"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Contribuintes" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
+      <DashboardQuadrados title="Funcionários" number={2400} label="unidades"  />
     </CardsContainer>
 
     </PageWrapper>

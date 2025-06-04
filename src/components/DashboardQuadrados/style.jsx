@@ -4,6 +4,8 @@ export const Card = styled.div`
   border: 2px solid black;
   border-radius: 20px;
   padding: 20px;
+  width: 15vw;
+  height: 15vh;
 `;
 
 export const Title = styled.h2`
@@ -18,12 +20,12 @@ export const Content = styled.div`
 `;
 
 export const Number = styled.span`
-  font-size: 48px;
+  font-size: 18px;
   font-weight: bold;
   margin-right: 8px;
 `;
 
 export const Label = styled.span`
-  font-size: 18px;
-  color: #555;
+  font-weight: bold;
+  color: #929292;
 `;
